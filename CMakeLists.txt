@@ -11,6 +11,8 @@ add_executable(basic_tuple src/basic/tuple.cpp)
 
 add_executable(template_demo1 src/template/demo1.cpp)
 add_executable(template_demo2 src/template/demo2.cpp)
+add_executable(template_sum src/template/sum_demo.cpp)
+add_executable(template_value src/template/value_template.cpp)
 
 
 
