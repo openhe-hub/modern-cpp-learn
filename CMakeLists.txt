@@ -14,5 +14,9 @@ add_executable(template_demo2 src/template/demo2.cpp)
 add_executable(template_sum src/template/sum_demo.cpp)
 add_executable(template_value src/template/value_template.cpp)
 
+add_executable(rvalue_demo1 src/rvalue/rvalue_demo1.cpp)
+add_executable(rvalue_move src/rvalue/move_demo.cpp)
+add_executable(rvalue_forward src/rvalue/forward_demo.cpp)
+
 
 
