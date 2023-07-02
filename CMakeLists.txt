@@ -7,6 +7,7 @@ add_executable(modern_cpp_learn src/main.cpp)
 
 add_executable(basic_nullptr src/basic/nullptr.cpp)
 add_executable(basic_constexpr src/basic/constexpr.cpp)
+add_executable(basic_tuple src/basic/tuple.cpp)
 
 
 
