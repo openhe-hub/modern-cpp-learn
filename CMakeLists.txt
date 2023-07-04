@@ -18,5 +18,8 @@ add_executable(rvalue_demo1 src/rvalue/rvalue_demo1.cpp)
 add_executable(rvalue_move src/rvalue/move_demo.cpp)
 add_executable(rvalue_forward src/rvalue/forward_demo.cpp)
 
+add_executable(function_function src/function/function_demo.cpp)
+add_executable(function_bind src/function/function_bind.cpp)
+
 
 
