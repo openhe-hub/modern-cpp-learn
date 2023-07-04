@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0.0)
 project(modern_cpp_learn VERSION 0.1.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CAMKE_CXX_FLAGS} -std=c++17 -pthread")
 
 add_executable(modern_cpp_learn src/main.cpp)
 
@@ -20,6 +21,10 @@ add_executable(rvalue_forward src/rvalue/forward_demo.cpp)
 
 add_executable(function_function src/function/function_demo.cpp)
 add_executable(function_bind src/function/function_bind.cpp)
+
+add_executable(parallel_mutex src/parallel/mutex_demo.cpp)
+add_executable(parallel_future src/parallel/future_demo.cpp)
+add_executable(parallel_condition src/parallel/condition_demo.cpp)
 
 
 
